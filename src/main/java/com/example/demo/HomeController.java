@@ -11,6 +11,6 @@ public class HomeController {
 
     @GetMapping("/home")
     public String home() {
-        return "home"; // This will resolve to a view named 'home.html'
+        return "Hello world"; // This will resolve to a view named 'home.html'
     }
 }
